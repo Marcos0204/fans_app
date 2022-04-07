@@ -49,7 +49,7 @@ export default function Table() {
             >Search</button>
         </div>
         <div className='mb-6 flex flex-col sm:flex-row sm:justify-evenly justify-center items-center' >
-          <button type="button" cl="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center mb-5 md:mb-0 md:mr-5 "
+          <button type="button" className="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center mb-5 md:mb-0 md:mr-5 "
             style={{
               display: "flex",
               justifyContent: "space-evenly",
