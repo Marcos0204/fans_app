@@ -44,12 +44,12 @@ export default function Table() {
               <option>active</option>
             </select>
             
-            <button type="submit" class="text-white bg-blue-700 mb-3 lg:mb-0 p-3 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center"
+            <button type="submit" className="text-white bg-blue-700 mb-3 lg:mb-0 p-3 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center"
             
             >Search</button>
         </div>
         <div className='mb-6 flex flex-col sm:flex-row sm:justify-evenly justify-center items-center' >
-          <button type="button" class="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center mb-5 md:mb-0 md:mr-5 "
+          <button type="button" cl="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center mb-5 md:mb-0 md:mr-5 "
             style={{
               display: "flex",
               justifyContent: "space-evenly",
@@ -61,7 +61,7 @@ export default function Table() {
               }}/>
               Upload New
           </button>
-          <button type="button" class="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center"
+          <button type="button" className="text-white bg-blue-700 w-40 focus:outline-none  font-medium rounded-lg text-sm px-5 py-3 text-center inline-flex items-center"
             style={{
               display: "flex",
               justifyContent: "space-evenly",
